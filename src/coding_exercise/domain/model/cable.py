@@ -1,8 +1,8 @@
+# -*- coding: utf-8 -*-
 import sys
 
 
 class Cable:
-
     def __set_length(self, length: int):
         if not isinstance(length, int) or length < 0 or length > sys.maxsize:
             raise ValueError

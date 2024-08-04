@@ -114,12 +114,14 @@ If you decide to leverage it, you can do the following::
     vagrant ssh
     cd /vagrant
 
-Code formatting
+Quality assurance
 =======================
 
-Black code formatting is used to enforce formatting standards::
+Coding standards are enforced through pre-commit hooks which can be run by::
 
-    black .
+    pre-commit run --all-files
+
+On each commit, the test suite is run and code quality is checked.
 
 Tested Configuration
 --------------------
