@@ -114,6 +114,13 @@ If you decide to leverage it, you can do the following::
     vagrant ssh
     cd /vagrant
 
+Code formatting
+=======================
+
+Black code formatting is used to enforce formatting standards::
+
+    black .
+
 Tested Configuration
 --------------------
 
