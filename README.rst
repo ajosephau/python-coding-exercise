@@ -121,7 +121,7 @@ Coding standards are enforced through pre-commit hooks which can be run by::
 
     pre-commit run --all-files
 
-On each commit, the test suite is run and code quality is checked.
+On each commit, the test suite is run and code quality is checked. Please see `github actions <https://github.com/ajosephau/python-coding-exercise/actions>`_ for current build status.
 
 Tested Configuration
 --------------------
