@@ -13,6 +13,9 @@ class Cable:
         self.__set_length(length)
         self.name = name
 
+    def __str__(self):
+        return f"Cable {self.name}. Length: {self.length}."
+
     def __eq__(self, other):
         if isinstance(other, Cable):
             return self.length == other.length and self.name == other.name

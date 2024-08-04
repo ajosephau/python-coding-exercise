@@ -1,4 +1,4 @@
-name: Run Django testing w/ coverage
+name: Run Python testing
 
 on:
   push:
